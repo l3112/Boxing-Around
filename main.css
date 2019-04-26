@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: 'Roboto', 'Helvetica', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+main {
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    padding: 25px;
+
+    width: 100%;
+    max-width: 760px;
+    height: 100vh;
+}
+
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    top: 0px;
+    left: 0px;
+    transition: all 0.5s;
+}
+
+.box:hover {
+    left: 200px; 
+    top: 100px;
+}
+
+.box2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    top: 0px;
+    right: 0px;
+    transition: all 0.5s;
+}
+
+.box2:hover {
+    left: 200px; 
+    top: 100px;
+}
